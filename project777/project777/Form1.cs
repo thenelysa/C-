@@ -20,14 +20,18 @@ namespace project777
         private void button1_Click(object sender, EventArgs e)
         {
             string data = textBox1.Text;
-            if(data == "test")
-            {
-                MessageBox.Show("Success");
-            }
-            else
-            {
-                MessageBox.Show("Failed");
-            }
+
+            /*if(data == "test")
+            //{
+              //  MessageBox.Show("Success");
+            //}
+            //else
+            //{
+              MessageBox.Show("Failed");*/
+            for(int i=0; i<=3;i++)
+                {
+                    MessageBox.Show("Display"+ i);
+                }
         }
     }
 }
