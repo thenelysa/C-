@@ -1,0 +1,17 @@
+D:\Nelysa\Csharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.exe
+D:\Nelysa\Csharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.deps.json
+D:\Nelysa\Csharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.runtimeconfig.json
+D:\Nelysa\Csharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.dll
+D:\Nelysa\Csharp\Calculator\Calculator\bin\Debug\net6.0-windows\ref\Calculator.dll
+D:\Nelysa\Csharp\Calculator\Calculator\bin\Debug\net6.0-windows\Calculator.pdb
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.AssemblyReference.cache
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.Form1.resources
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.GenerateResource.cache
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.AssemblyInfoInputs.cache
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.AssemblyInfo.cs
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.csproj.CoreCompileInputs.cache
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.dll
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\ref\Calculator.dll
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.pdb
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.genruntimeconfig.cache

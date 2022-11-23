@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.username = new System.Windows.Forms.Button();
+            this.username2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.username3 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
@@ -59,30 +59,31 @@
             this.textBox1.Size = new System.Drawing.Size(313, 23);
             this.textBox1.TabIndex = 0;
             // 
-            // button1
+            // username
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.button1.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(160, 110);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(57, 39);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "7";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.username.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.username.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.username.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.username.Location = new System.Drawing.Point(160, 110);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(57, 39);
+            this.username.TabIndex = 1;
+            this.username.Text = "7";
+            this.username.UseVisualStyleBackColor = false;
+            this.username.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // username2
             // 
-            this.button2.BackColor = System.Drawing.SystemColors.GrayText;
-            this.button2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(223, 110);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(58, 39);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "8";
-            this.button2.UseVisualStyleBackColor = false;
+            this.username2.BackColor = System.Drawing.SystemColors.GrayText;
+            this.username2.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.username2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.username2.Location = new System.Drawing.Point(223, 110);
+            this.username2.Name = "username2";
+            this.username2.Size = new System.Drawing.Size(58, 39);
+            this.username2.TabIndex = 2;
+            this.username2.Text = "8";
+            this.username2.UseVisualStyleBackColor = false;
+            this.username2.Click += new System.EventHandler(this.username2_Click);
             // 
             // button3
             // 
@@ -95,10 +96,11 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "9";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.SystemColors.GrayText;
+            this.button4.BackColor = System.Drawing.Color.Teal;
             this.button4.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button4.Location = new System.Drawing.Point(351, 110);
@@ -107,10 +109,11 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "/";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.SystemColors.GrayText;
+            this.button5.BackColor = System.Drawing.Color.Maroon;
             this.button5.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button5.Location = new System.Drawing.Point(415, 110);
@@ -120,18 +123,18 @@
             this.button5.Text = "CE";
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // username3
             // 
-            this.button6.BackColor = System.Drawing.SystemColors.WindowFrame;
-            this.button6.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button6.Location = new System.Drawing.Point(160, 155);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(57, 39);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "4";
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button1_Click);
+            this.username3.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.username3.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.username3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.username3.Location = new System.Drawing.Point(160, 155);
+            this.username3.Name = "username3";
+            this.username3.Size = new System.Drawing.Size(57, 39);
+            this.username3.TabIndex = 1;
+            this.username3.Text = "4";
+            this.username3.UseVisualStyleBackColor = false;
+            this.username3.Click += new System.EventHandler(this.username3_Click);
             // 
             // button7
             // 
@@ -144,6 +147,7 @@
             this.button7.TabIndex = 2;
             this.button7.Text = "5";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
@@ -156,10 +160,11 @@
             this.button8.TabIndex = 3;
             this.button8.Text = "6";
             this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.SystemColors.GrayText;
+            this.button9.BackColor = System.Drawing.Color.Teal;
             this.button9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button9.Location = new System.Drawing.Point(351, 155);
@@ -168,10 +173,11 @@
             this.button9.TabIndex = 4;
             this.button9.Text = "*";
             this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
             // button10
             // 
-            this.button10.BackColor = System.Drawing.SystemColors.GrayText;
+            this.button10.BackColor = System.Drawing.Color.Maroon;
             this.button10.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button10.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button10.Location = new System.Drawing.Point(415, 155);
@@ -192,7 +198,7 @@
             this.button11.TabIndex = 1;
             this.button11.Text = "1";
             this.button11.UseVisualStyleBackColor = false;
-            this.button11.Click += new System.EventHandler(this.button1_Click);
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // button12
             // 
@@ -205,6 +211,7 @@
             this.button12.TabIndex = 2;
             this.button12.Text = "2";
             this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
             // 
             // button13
             // 
@@ -217,10 +224,11 @@
             this.button13.TabIndex = 3;
             this.button13.Text = "3";
             this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
             // 
             // button14
             // 
-            this.button14.BackColor = System.Drawing.SystemColors.GrayText;
+            this.button14.BackColor = System.Drawing.Color.Teal;
             this.button14.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button14.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button14.Location = new System.Drawing.Point(351, 200);
@@ -229,6 +237,7 @@
             this.button14.TabIndex = 4;
             this.button14.Text = "-";
             this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.button14_Click);
             // 
             // button16
             // 
@@ -241,7 +250,7 @@
             this.button16.TabIndex = 1;
             this.button16.Text = "0";
             this.button16.UseVisualStyleBackColor = false;
-            this.button16.Click += new System.EventHandler(this.button1_Click);
+            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button18
             // 
@@ -254,10 +263,11 @@
             this.button18.TabIndex = 3;
             this.button18.Text = "9";
             this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
             // 
             // button19
             // 
-            this.button19.BackColor = System.Drawing.SystemColors.GrayText;
+            this.button19.BackColor = System.Drawing.Color.Teal;
             this.button19.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button19.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button19.Location = new System.Drawing.Point(351, 245);
@@ -266,10 +276,11 @@
             this.button19.TabIndex = 4;
             this.button19.Text = "+";
             this.button19.UseVisualStyleBackColor = false;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
             // button20
             // 
-            this.button20.BackColor = System.Drawing.SystemColors.GrayText;
+            this.button20.BackColor = System.Drawing.Color.Teal;
             this.button20.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button20.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button20.Location = new System.Drawing.Point(415, 200);
@@ -278,6 +289,7 @@
             this.button20.TabIndex = 5;
             this.button20.Text = "=";
             this.button20.UseVisualStyleBackColor = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
             // 
             // textBox2
             // 
@@ -309,9 +321,9 @@
             this.Controls.Add(this.button7);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.username3);
+            this.Controls.Add(this.username2);
+            this.Controls.Add(this.username);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -323,12 +335,12 @@
         #endregion
 
         private TextBox textBox1;
-        private Button button1;
-        private Button button2;
+        private Button username;
+        private Button username2;
         private Button button3;
         private Button button4;
         private Button button5;
-        private Button button6;
+        private Button username3;
         private Button button7;
         private Button button8;
         private Button button9;
