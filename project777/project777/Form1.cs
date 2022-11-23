@@ -33,5 +33,10 @@ namespace project777
                     MessageBox.Show("Display"+ i);
                 }
         }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
