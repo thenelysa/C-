@@ -48,6 +48,7 @@
             this.button19 = new System.Windows.Forms.Button();
             this.button20 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
@@ -122,6 +123,7 @@
             this.button5.TabIndex = 5;
             this.button5.Text = "CE";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // username3
             // 
@@ -186,6 +188,7 @@
             this.button10.TabIndex = 5;
             this.button10.Text = "C";
             this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // button11
             // 
@@ -289,7 +292,7 @@
             this.button20.TabIndex = 5;
             this.button20.Text = "=";
             this.button20.UseVisualStyleBackColor = false;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
+            this.button20.Click += new System.EventHandler(this.button9_Click);
             // 
             // textBox2
             // 
@@ -300,11 +303,22 @@
             this.textBox2.Size = new System.Drawing.Size(103, 23);
             this.textBox2.TabIndex = 6;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(160, 290);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 7;
+            this.button1.Text = "New Win";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button20);
             this.Controls.Add(this.button10);
@@ -326,7 +340,7 @@
             this.Controls.Add(this.username);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "bb";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -354,5 +368,6 @@
         private Button button19;
         private Button button20;
         private TextBox textBox2;
+        private Button button1;
     }
 }

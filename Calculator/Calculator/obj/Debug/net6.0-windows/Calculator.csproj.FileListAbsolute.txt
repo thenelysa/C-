@@ -15,3 +15,4 @@ D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.dll
 D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\ref\Calculator.dll
 D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.pdb
 D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.genruntimeconfig.cache
+D:\Nelysa\Csharp\Calculator\Calculator\obj\Debug\net6.0-windows\Calculator.calculator2.resources
