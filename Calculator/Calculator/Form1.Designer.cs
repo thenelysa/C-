@@ -37,7 +37,7 @@
             this.username3 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
+            this.button = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
@@ -164,18 +164,18 @@
             this.button8.UseVisualStyleBackColor = false;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // button9
+            // button
             // 
-            this.button9.BackColor = System.Drawing.Color.Teal;
-            this.button9.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button9.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button9.Location = new System.Drawing.Point(351, 155);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(58, 39);
-            this.button9.TabIndex = 4;
-            this.button9.Text = "*";
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.button.BackColor = System.Drawing.Color.Teal;
+            this.button.Font = new System.Drawing.Font("Times New Roman", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.button.Location = new System.Drawing.Point(351, 155);
+            this.button.Name = "button";
+            this.button.Size = new System.Drawing.Size(58, 39);
+            this.button.TabIndex = 4;
+            this.button.Text = "*";
+            this.button.UseVisualStyleBackColor = false;
+            this.button.Click += new System.EventHandler(this.button20_Click);
             // 
             // button10
             // 
@@ -327,7 +327,7 @@
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
-            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.button4);
@@ -357,7 +357,7 @@
         private Button username3;
         private Button button7;
         private Button button8;
-        private Button button9;
+        private Button button;
         private Button button10;
         private Button button11;
         private Button button12;

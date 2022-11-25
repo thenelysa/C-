@@ -47,6 +47,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
+            this.checkBox1.ForeColor = System.Drawing.Color.Maroon;
             this.checkBox1.Location = new System.Drawing.Point(165, 81);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(43, 19);
@@ -57,6 +58,7 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
+            this.checkBox2.ForeColor = System.Drawing.Color.Maroon;
             this.checkBox2.Location = new System.Drawing.Point(231, 81);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(42, 19);
@@ -67,6 +69,7 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
+            this.checkBox3.ForeColor = System.Drawing.Color.Maroon;
             this.checkBox3.Location = new System.Drawing.Point(295, 81);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(62, 19);

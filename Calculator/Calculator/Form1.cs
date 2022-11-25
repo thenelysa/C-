@@ -12,7 +12,7 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "+" || textBox1.Text == "-" || textBox1.Text == "/" || textBox1.Text == "*" || textBox1.Text == "%")
+            if (textBox1.Text == "+" || textBox1.Text == "-" || textBox1.Text == "/" || textBox1.Text == "*")
             {
                 textBox1.Text = "7";
             }
@@ -25,7 +25,7 @@ namespace Calculator
 
         private void username2_Click(object sender, EventArgs e)
         {
-            if (textBox1.Text == "+" || textBox1.Text == "-" || textBox1.Text == "/" || textBox1.Text == "*" || textBox1.Text == "%")
+            if (textBox1.Text == "+" || textBox1.Text == "-" || textBox1.Text == "/" || textBox1.Text == "*")
             {
                 textBox1.Text = "8";
             }
@@ -103,6 +103,12 @@ namespace Calculator
             operate = "-";
             textBox1.Text = "-";
         }
+        private void button20_Click(object sender, EventArgs e)
+        {
+            GetResultValue();
+            operate = "*";
+            textBox1.Text = "*";
+        }
 
         private void button9_Click(object sender, EventArgs e)
         {
@@ -147,8 +153,8 @@ namespace Calculator
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            //this.Close();
-            this.Hide();
+            this.Close();
+            //this.Hide();
             calculator2 cal2 = new calculator2();
             cal2.ShowDialog();
         }
@@ -174,6 +180,7 @@ namespace Calculator
             }
         }
 
+       
     }
    
 }
