@@ -213,6 +213,25 @@ namespace Calculator
                 MessageBox.Show("Error: " + ex.InnerException);
             }
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                string query = "update Student set name='Nelysa', address='Kathmandu' ,contact ='9860777527',college='KIST'";
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+
+    
+                MessageBox.Show("Saved Successfully");
+                con.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.InnerException);
+            }
+        }
     }
    
 }
