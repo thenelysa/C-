@@ -1,3 +1,4 @@
+using System.Data;
 using System.Data.SqlClient;
 
 namespace Calculator
@@ -231,6 +232,40 @@ namespace Calculator
             {
                 MessageBox.Show("Error: " + ex.InnerException);
             }
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+
+        }
+        //------------------For extractibg data directly from dataBASE(SOURCE DATA)-----------//
+        private void Display_Click(object sender, EventArgs e)
+        {
+
+            /*try
+            {
+                con.Open();
+                SqlCommand cmd = new SqlCommand("select * from Student", con);
+                SqlDataAdapter sda = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                dataGridView1.DataSource = dt;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR" + ex.InnerException);
+            }*/
+            dataGridView1.Rows.Add("1", "Nelysa", "ktm","KIST");
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
    
