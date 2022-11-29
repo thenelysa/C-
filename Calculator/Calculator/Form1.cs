@@ -1,9 +1,13 @@
+using System.Data.SqlClient;
+
 namespace Calculator
 {
     public partial class Form1 : Form
     {
         string operate = "";
         decimal calculation = 0;
+
+        SqlConnection con = new SqlConnection(@"Data Source= .\SQLEXPRESS;Initial Catalog=database7;user id=sa;password=kist@123;");
         public Form1()
         {
 
@@ -12,6 +16,19 @@ namespace Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                con.Open();
+                string query = "Insert into student values ('Nelysa','Samakhusi','9860777527','KIST')";
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Saved Successfully");
+                con.Close();
+}
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.InnerException);
+            }
             if (textBox1.Text == "+" || textBox1.Text == "-" || textBox1.Text == "/" || textBox1.Text == "*")
             {
                 textBox1.Text = "7";
@@ -180,7 +197,22 @@ namespace Calculator
             }
         }
 
-       
+        private void button2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                con.Open();
+                string query = "Insert into student values ('Nelysa','Samakhusi','9860777527','KIST')";
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Saved Successfully");
+                con.Close();
+}
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.InnerException);
+            }
+        }
     }
    
 }
