@@ -263,7 +263,31 @@ namespace Calculator
             dataGridView1.Rows.Add("1", "Nelysa", "ktm","KIST");
         }
 
-        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        private void button9_Click_1(object sender, EventArgs e)
+        {
+            string data = sn.Text;
+            string data1 = name.Text;
+            string data2 = address.Text;
+            string data3= college.Text;
+            dataGridView1.Rows.Add(data, data1, data2, data3);
+        }
+
+        private void sn_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void address_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void college_TextChanged(object sender, EventArgs e)
         {
 
         }

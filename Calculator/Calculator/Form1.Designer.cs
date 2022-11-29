@@ -57,6 +57,11 @@
             this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Studentname = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Add = new System.Windows.Forms.Button();
+            this.sn = new System.Windows.Forms.TextBox();
+            this.name = new System.Windows.Forms.TextBox();
+            this.address = new System.Windows.Forms.TextBox();
+            this.college = new System.Windows.Forms.TextBox();
+            this.button9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -358,7 +363,6 @@
             this.dataGridView1.RowTemplate.Height = 25;
             this.dataGridView1.Size = new System.Drawing.Size(441, 270);
             this.dataGridView1.TabIndex = 10;
-            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick_1);
             // 
             // number
             // 
@@ -386,7 +390,7 @@
             // 
             // Add
             // 
-            this.Add.Location = new System.Drawing.Point(676, 348);
+            this.Add.Location = new System.Drawing.Point(12, 400);
             this.Add.Name = "Add";
             this.Add.Size = new System.Drawing.Size(126, 23);
             this.Add.TabIndex = 11;
@@ -394,11 +398,59 @@
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Display_Click);
             // 
+            // sn
+            // 
+            this.sn.AcceptsTab = true;
+            this.sn.Location = new System.Drawing.Point(479, 43);
+            this.sn.Name = "sn";
+            this.sn.Size = new System.Drawing.Size(100, 23);
+            this.sn.TabIndex = 12;
+            this.sn.TextChanged += new System.EventHandler(this.sn_TextChanged);
+            // 
+            // name
+            // 
+            this.name.Location = new System.Drawing.Point(585, 43);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(100, 23);
+            this.name.TabIndex = 13;
+            this.name.TextChanged += new System.EventHandler(this.name_TextChanged);
+            // 
+            // address
+            // 
+            this.address.Location = new System.Drawing.Point(691, 43);
+            this.address.Name = "address";
+            this.address.Size = new System.Drawing.Size(100, 23);
+            this.address.TabIndex = 14;
+            this.address.TextChanged += new System.EventHandler(this.address_TextChanged);
+            // 
+            // college
+            // 
+            this.college.Location = new System.Drawing.Point(797, 43);
+            this.college.Name = "college";
+            this.college.Size = new System.Drawing.Size(100, 23);
+            this.college.TabIndex = 15;
+            this.college.TextChanged += new System.EventHandler(this.college_TextChanged);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(720, 386);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 23);
+            this.button9.TabIndex = 16;
+            this.button9.Text = "show";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(919, 450);
+            this.ClientSize = new System.Drawing.Size(933, 450);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.college);
+            this.Controls.Add(this.address);
+            this.Controls.Add(this.name);
+            this.Controls.Add(this.sn);
             this.Controls.Add(this.Add);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button6);
@@ -425,7 +477,7 @@
             this.Controls.Add(this.username);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "bb";
+            this.Text = "b";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -463,5 +515,10 @@
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
         private DataGridViewTextBoxColumn Studentname;
         private Button Add;
+        private TextBox sn;
+        private TextBox name;
+        private TextBox address;
+        private TextBox college;
+        private Button button9;
     }
 }
