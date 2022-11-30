@@ -247,7 +247,7 @@ namespace Calculator
         private void Display_Click(object sender, EventArgs e)
         {
 
-            /*try
+            try
             {
                 con.Open();
                 SqlCommand cmd = new SqlCommand("select * from Student", con);
@@ -259,7 +259,7 @@ namespace Calculator
             catch (Exception ex)
             {
                 MessageBox.Show("ERROR" + ex.InnerException);
-            }*/
+            }
             dataGridView1.Rows.Add("1", "Nelysa", "ktm","KIST");
         }
 
@@ -290,6 +290,37 @@ namespace Calculator
         private void college_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+            string data1 = textBox1.Text;
+            con.Open();
+            string query = "Insert into Student" +
+            "(name, address, contact, college)" +
+         "   values('" + dataGridView1 + " ' , '" + textBox2.Text +
+             " ' ,'" + textBox3.Text +
+             " ' ,' " + textBox4.Text +
+             "')";
+            SqlCommand cmd = con.CreateCommand();
+            cmd.CommandText = query;
+            cmd.ExecuteNonQuery();
+            con.Close();            
         }
     }
    
