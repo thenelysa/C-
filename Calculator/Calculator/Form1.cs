@@ -272,40 +272,6 @@ namespace Calculator
             dataGridView1.Rows.Add(data, data1, data2, data3);
         }
 
-        private void sn_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void name_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void address_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void college_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox4_TextChanged(object sender, EventArgs e)
-        {
-
-        }
 
         private void save_Click(object sender, EventArgs e)
         {
@@ -313,14 +279,16 @@ namespace Calculator
             con.Open();
             string query = "Insert into Student" +
             "(name, address, contact, college)" +
-         "   values('" + dataGridView1 + " ' , '" + textBox2.Text +
-             " ' ,'" + textBox3.Text +
-             " ' ,' " + textBox4.Text +
-             "')";
+         "   values(@student_name,@address" + ",@contact,@college)";
             SqlCommand cmd = con.CreateCommand();
             cmd.CommandText = query;
+            cmd.Parameters.AddWithValue("@student_name", textBox1.Text);
+            cmd.Parameters.AddWithValue("@address", textBox2.Text);
+            cmd.Parameters.AddWithValue("@contact", textBox3.Text);
+            cmd.Parameters.AddWithValue("@college", textBox4.Text);
             cmd.ExecuteNonQuery();
-            con.Close();            
+            con.Close();
+            MessageBox.Show("Saved Successfully");
         }
     }
    
