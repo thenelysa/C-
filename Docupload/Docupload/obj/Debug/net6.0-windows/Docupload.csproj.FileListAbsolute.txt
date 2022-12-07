@@ -21,3 +21,4 @@ D:\Nelysa\Csharp\Docupload\Docupload\bin\Debug\net6.0-windows\runtimes\win-x86\n
 D:\Nelysa\Csharp\Docupload\Docupload\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Nelysa\Csharp\Docupload\Docupload\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Nelysa\Csharp\Docupload\Docupload\obj\Debug\net6.0-windows\Docupload.csproj.CopyComplete
+D:\Nelysa\Csharp\Docupload\Docupload\obj\Debug\net6.0-windows\Docupload.csproj.AssemblyReference.cache

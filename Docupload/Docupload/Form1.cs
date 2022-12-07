@@ -72,8 +72,13 @@ namespace Docupload
                     //we already define our connection globaly. We are just calling the object of connection.
                     con.Open();
                     SqlCommand cmd = new SqlCommand("insert into doc (document)values('\\Document\\" + filename + "')", con);
-                    string path = Application.StartupPath.Substring(0, (Application.StartupPath.Length - 10));
-                    System.IO.File.Copy(openFileDialog1.FileName, path + "\\Document\\" + filename);
+                    string path = Application.StartupPath + "\\Document\\";
+                    if (Directory.Exists(path) == false)
+                    {
+                        Directory.CreateDirectory(path);
+                    }
+
+                    System.IO.File.Copy(openFileDialog1.FileName, path + filename);
                     cmd.ExecuteNonQuery();
                     con.Close();
                     MessageBox.Show("Document uploaded.");
